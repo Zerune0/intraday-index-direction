@@ -1,0 +1,46 @@
+# macOS and Python caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Licensed or private source data
+*.csv
+1-沪深300数据/
+2-上证指数数据/
+3-深证成指/
+data/raw/
+
+# Generated analysis artifacts
+analysis_outputs/
+analysis_outputs_refactored/
+analysis_outputs*/
+
+# Manuscripts, reviews, and administrative materials
+*.doc
+*.docx
+*.pdf
+*.xls
+*.xlsx
+manuscript/
+submission/
+reviews/
+acceptance/
+authorization/
+
+# Local editor settings
+.vscode/
+.idea/
